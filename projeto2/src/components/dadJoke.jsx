@@ -20,7 +20,7 @@ function DadJoke() {
   return (
     <div className="container">
       <h1>Dad Joke</h1>
-      <p className="joke">{joke}</p>
+      <p className="norris">{joke}</p>
       <button type="button" className="btn" onClick={getJoke}>
         Get Another Joke
       </button>
